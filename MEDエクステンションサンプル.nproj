@@ -21,6 +21,27 @@
   },
   "Entities": [
     {
+      "Id": "09363ac7-de4a-474d-b45f-9cefdd1ea610",
+      "EntityType": "Entity",
+      "Name": "変更依頼7",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼7",
+        "完了済": false
+      }
+    },
+    {
+      "Id": "1117a027-4994-4483-b6de-251648c23f98",
+      "EntityType": "Entity",
+      "Name": "変更履歴12",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴12"
+      }
+    },
+    {
       "Id": "1b4a60cd-8075-46ef-b8fe-0061bfe328db",
       "EntityType": null,
       "Name": "MEDエクステンションサンプル",
@@ -76,13 +97,44 @@
       }
     },
     {
+      "Id": "49bfa0d3-c2c5-4509-9257-313d5b07f2d6",
+      "EntityType": "Entity",
+      "Name": "変更履歴11",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴11"
+      }
+    },
+    {
       "Id": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
       "EntityType": "Entity",
-      "Name": "仕様",
+      "Name": "仕様2",
       "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
       "Metamodel": "仕様",
       "Fields": {
-        "Name": "仕様"
+        "Name": "仕様2"
+      }
+    },
+    {
+      "Id": "68357054-ea0e-45ad-83bc-1c62df82def8",
+      "EntityType": "Entity",
+      "Name": "変更依頼8",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼8",
+        "完了済": false
+      }
+    },
+    {
+      "Id": "70a6fba7-29f5-4280-a790-3ed4ccb3fed6",
+      "EntityType": "Entity",
+      "Name": "変更履歴6",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴6"
       }
     },
     {
@@ -93,6 +145,17 @@
       "Metamodel": "依頼管理",
       "Fields": {
         "Name": "依頼管理"
+      }
+    },
+    {
+      "Id": "73d8a501-ad6e-441d-8fd2-0d729fca5c57",
+      "EntityType": "Entity",
+      "Name": "変更依頼9",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼9",
+        "完了済": false
       }
     },
     {
@@ -124,7 +187,17 @@
       "Metamodel": "変更依頼",
       "Fields": {
         "Name": "変更依頼1",
-        "完了済": false
+        "完了済": true
+      }
+    },
+    {
+      "Id": "90aebcc4-fdbd-4e96-948f-7fac758967ff",
+      "EntityType": "Entity",
+      "Name": "変更履歴5",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴5"
       }
     },
     {
@@ -135,7 +208,7 @@
       "Metamodel": "変更依頼",
       "Fields": {
         "Name": "変更依頼2",
-        "完了済": false
+        "完了済": true
       }
     },
     {
@@ -156,7 +229,7 @@
       "Metamodel": "変更依頼",
       "Fields": {
         "Name": "変更依頼3",
-        "完了済": false
+        "完了済": true
       }
     },
     {
@@ -183,11 +256,11 @@
     {
       "Id": "e8679cd7-52c2-4be7-9817-0706410895c5",
       "EntityType": "Entity",
-      "Name": "仕様",
+      "Name": "仕様1",
       "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
       "Metamodel": "仕様",
       "Fields": {
-        "Name": "仕様"
+        "Name": "仕様1"
       }
     },
     {
@@ -224,6 +297,16 @@
       "TargetIndex": -1
     },
     {
+      "Id": "1f81ec39-a01e-4948-8a32-195636c7e593",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "73d8a501-ad6e-441d-8fd2-0d729fca5c57",
+      "SourceIndex": 8,
+      "TargetIndex": -1
+    },
+    {
       "Id": "306a803e-4dcf-45dc-81bf-73157b27ec06",
       "RelationType": "Embed",
       "MetamodelId": "7713eeb8-e3ae-4402-a69c-db82691ee334",
@@ -233,12 +316,32 @@
       "TargetIndex": -1
     },
     {
+      "Id": "43d64c22-a572-4c2c-a524-832c329c1c84",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
+      "TargetId": "1117a027-4994-4483-b6de-251648c23f98",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
       "Id": "46c14003-385b-42ac-b1a3-6637d0f4b585",
       "RelationType": "Embed",
       "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
       "Metamodel": "変更履歴の所有",
       "SourceId": "e8679cd7-52c2-4be7-9817-0706410895c5",
       "TargetId": "24ff3aaa-6d61-4fa8-88bb-541b75ec9beb",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "4e7cc3bb-119e-4252-84a9-2d4744f4244d",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "TargetId": "90aebcc4-fdbd-4e96-948f-7fac758967ff",
+      "SourceIndex": 4,
       "TargetIndex": -1
     },
     {
@@ -262,12 +365,32 @@
       "TargetIndex": -1
     },
     {
+      "Id": "57045514-3a7f-42b4-b4ef-62396f9d2e52",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "09363ac7-de4a-474d-b45f-9cefdd1ea610",
+      "SourceIndex": 6,
+      "TargetIndex": -1
+    },
+    {
       "Id": "576dd51e-aea6-4b00-b014-731d62e5a19e",
       "RelationType": "Ref",
       "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
       "Metamodel": "変更依頼を入力とする変更履歴の導出",
       "SourceId": "7e0e7903-a6c0-451f-93c3-a76c55bfaaf1",
       "TargetId": "acc39927-355c-4c96-8f9d-a2c07edd25d6",
+      "TargetIndex": -1,
+      "IsDerivation": true
+    },
+    {
+      "Id": "5a3324bf-6bb1-4a7b-87ae-8e6ab93ac71f",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "2dcac465-cd65-4355-ba34-dba9bf7c6b67",
+      "TargetId": "b3916a5f-9260-4535-bc4b-12e7f5de9b5a",
       "TargetIndex": -1,
       "IsDerivation": true
     },
@@ -282,6 +405,16 @@
       "TargetIndex": -1
     },
     {
+      "Id": "78bbe414-b3fa-4fe0-a490-945e4ceefe35",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "1117a027-4994-4483-b6de-251648c23f98",
+      "TargetId": "68357054-ea0e-45ad-83bc-1c62df82def8",
+      "TargetIndex": -1,
+      "IsDerivation": true
+    },
+    {
       "Id": "7ef9f22d-dbf4-4b9b-836e-7cbbbd985970",
       "RelationType": "Embed",
       "MetamodelId": "System.Design.___RootToEntities",
@@ -289,6 +422,16 @@
       "SourceId": "838e986d-f7ef-4b44-83bd-8ba1de492023",
       "TargetId": "71602936-eb17-4276-ba8d-833086a20b9f",
       "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "864a2374-e100-4cf0-8810-f494e645e238",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "68357054-ea0e-45ad-83bc-1c62df82def8",
+      "SourceIndex": 7,
       "TargetIndex": -1
     },
     {
@@ -300,6 +443,16 @@
       "TargetId": "e9c8bc24-cb9f-4c69-8559-6caedc9d6aee",
       "SourceIndex": 2,
       "TargetIndex": -1
+    },
+    {
+      "Id": "ae22e072-7793-403e-bd10-f0ce01e98a8b",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "49bfa0d3-c2c5-4509-9257-313d5b07f2d6",
+      "TargetId": "73d8a501-ad6e-441d-8fd2-0d729fca5c57",
+      "TargetIndex": -1,
+      "IsDerivation": true
     },
     {
       "Id": "afa8da08-33c7-4a38-b233-30bde244beb5",
@@ -351,12 +504,31 @@
       "TargetIndex": -1
     },
     {
+      "Id": "c2776eab-2274-4f15-99cd-03e1ff55275e",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "TargetId": "70a6fba7-29f5-4280-a790-3ed4ccb3fed6",
+      "SourceIndex": 5,
+      "TargetIndex": -1
+    },
+    {
       "Id": "cc4f92ec-42a2-48b4-b047-0d36a6d2a09e",
       "RelationType": "Embed",
       "MetamodelId": "9187ef9a-8048-455e-adaf-852e9c6d7981",
       "Metamodel": "仕様の所有",
       "SourceId": "dff2efa9-f87b-4f66-8e32-e3c91ed11894",
       "TargetId": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "d03aba2f-4b8d-4377-a30c-530e8f32ce4b",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
+      "TargetId": "49bfa0d3-c2c5-4509-9257-313d5b07f2d6",
       "TargetIndex": -1
     },
     {
@@ -368,6 +540,16 @@
       "TargetId": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
       "SourceIndex": 1,
       "TargetIndex": -1
+    },
+    {
+      "Id": "de0174e5-d10a-4020-b66e-fefd522d77aa",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "e9c8bc24-cb9f-4c69-8559-6caedc9d6aee",
+      "TargetId": "38b32020-cc63-4948-ab0f-6de4868d56ba",
+      "TargetIndex": -1,
+      "IsDerivation": true
     },
     {
       "Id": "f8dbfa55-e0c4-40f0-8ddb-489117f7e1b3",
