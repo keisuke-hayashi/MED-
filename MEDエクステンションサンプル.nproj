@@ -1,0 +1,369 @@
+{
+  "Type": "Project",
+  "TopElementId": "1b4a60cd-8075-46ef-b8fe-0061bfe328db",
+  "SchemaVersion": "13.0",
+  "Project": {
+    "Id": "1b4a60cd-8075-46ef-b8fe-0061bfe328db",
+    "Name": "MEDエクステンションサンプル",
+    "Summary": "",
+    "Group": null,
+    "Icon": "",
+    "OutputModelPath": false,
+    "UnitFiles": [
+      {
+        "Name": "MEDエクステンションサンプル",
+        "Type": "Profile",
+        "TopElementId": "d5f5be76-633a-407f-89ba-96a701431790",
+        "IsSharedUnit": false,
+        "UnitPath": "Profile\\MEDエクステンションサンプル.nprof"
+      }
+    ]
+  },
+  "Entities": [
+    {
+      "Id": "1b4a60cd-8075-46ef-b8fe-0061bfe328db",
+      "EntityType": null,
+      "Name": "MEDエクステンションサンプル",
+      "MetamodelId": "System.Project.ProjectClass",
+      "Metamodel": "ProjectClass",
+      "Fields": {
+        "Name": "MEDエクステンションサンプル",
+        "Description": ""
+      }
+    },
+    {
+      "Id": "24ff3aaa-6d61-4fa8-88bb-541b75ec9beb",
+      "EntityType": "Entity",
+      "Name": "変更履歴1",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴1"
+      }
+    },
+    {
+      "Id": "2c4c86e4-dc1f-429e-ae72-aedd4ae43425",
+      "EntityType": "Entity",
+      "Name": "変更依頼6",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼6",
+        "完了済": true
+      }
+    },
+    {
+      "Id": "2dcac465-cd65-4355-ba34-dba9bf7c6b67",
+      "EntityType": "Entity",
+      "Name": "変更履歴4",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴4"
+      }
+    },
+    {
+      "Id": "38b32020-cc63-4948-ab0f-6de4868d56ba",
+      "EntityType": "Entity",
+      "Name": "変更依頼4",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼4",
+        "完了済": false
+      }
+    },
+    {
+      "Id": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
+      "EntityType": "Entity",
+      "Name": "仕様",
+      "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
+      "Metamodel": "仕様",
+      "Fields": {
+        "Name": "仕様"
+      }
+    },
+    {
+      "Id": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "EntityType": "Entity",
+      "Name": "依頼管理",
+      "MetamodelId": "e594d32e-1a90-46ff-a2c3-f1b85297e693",
+      "Metamodel": "依頼管理",
+      "Fields": {
+        "Name": "依頼管理"
+      }
+    },
+    {
+      "Id": "7e0e7903-a6c0-451f-93c3-a76c55bfaaf1",
+      "EntityType": "Entity",
+      "Name": "変更履歴2",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴2"
+      }
+    },
+    {
+      "Id": "838e986d-f7ef-4b44-83bd-8ba1de492023",
+      "EntityType": null,
+      "Name": "MEDエクステンションサンプル",
+      "MetamodelId": "System.Design.___DesignModel",
+      "Metamodel": "DesignModel",
+      "Fields": {
+        "Name": "MEDエクステンションサンプル"
+      }
+    },
+    {
+      "Id": "8c9e7297-ab7e-4446-99c7-3e5d16689ca0",
+      "EntityType": "Entity",
+      "Name": "変更依頼1",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼1",
+        "完了済": false
+      }
+    },
+    {
+      "Id": "930fdf10-777d-4821-9dc6-d68ea7c191ef",
+      "EntityType": "Entity",
+      "Name": "変更依頼2",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼2",
+        "完了済": false
+      }
+    },
+    {
+      "Id": "a5f7d0a6-eb36-4b87-8bdf-667d1c28fbd2",
+      "EntityType": "Entity",
+      "Name": "仕様開発",
+      "MetamodelId": "0b378857-4edf-470e-ad71-da22d6f89239",
+      "Metamodel": "仕様開発",
+      "Fields": {
+        "Name": "仕様開発"
+      }
+    },
+    {
+      "Id": "acc39927-355c-4c96-8f9d-a2c07edd25d6",
+      "EntityType": "Entity",
+      "Name": "変更依頼3",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼3",
+        "完了済": false
+      }
+    },
+    {
+      "Id": "b3916a5f-9260-4535-bc4b-12e7f5de9b5a",
+      "EntityType": "Entity",
+      "Name": "変更依頼5",
+      "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
+      "Metamodel": "変更依頼",
+      "Fields": {
+        "Name": "変更依頼5",
+        "完了済": true
+      }
+    },
+    {
+      "Id": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "EntityType": "Entity",
+      "Name": "仕様",
+      "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
+      "Metamodel": "仕様",
+      "Fields": {
+        "Name": "仕様"
+      }
+    },
+    {
+      "Id": "e9c8bc24-cb9f-4c69-8559-6caedc9d6aee",
+      "EntityType": "Entity",
+      "Name": "変更履歴3",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴3"
+      }
+    }
+  ],
+  "Relations": [
+    {
+      "Id": "0076e76c-1f7f-4ab4-853c-8da7123729a7",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "24ff3aaa-6d61-4fa8-88bb-541b75ec9beb",
+      "TargetId": "8c9e7297-ab7e-4446-99c7-3e5d16689ca0",
+      "TargetIndex": -1,
+      "IsDerivation": true
+    },
+    {
+      "Id": "0161aa3d-004d-4e59-9aae-8f7a1a03b8a3",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "TargetId": "2dcac465-cd65-4355-ba34-dba9bf7c6b67",
+      "SourceIndex": 3,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "46c14003-385b-42ac-b1a3-6637d0f4b585",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "TargetId": "24ff3aaa-6d61-4fa8-88bb-541b75ec9beb",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "4f4755da-869c-47d4-90ae-7d3ed56111b9",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "TargetId": "7e0e7903-a6c0-451f-93c3-a76c55bfaaf1",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "50f082bf-fc82-4a0a-8ef5-f76228e6a214",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "38b32020-cc63-4948-ab0f-6de4868d56ba",
+      "SourceIndex": 3,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "576dd51e-aea6-4b00-b014-731d62e5a19e",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "7e0e7903-a6c0-451f-93c3-a76c55bfaaf1",
+      "TargetId": "acc39927-355c-4c96-8f9d-a2c07edd25d6",
+      "TargetIndex": -1,
+      "IsDerivation": true
+    },
+    {
+      "Id": "5c5486e3-c62a-413e-a855-3268a4a66d23",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "930fdf10-777d-4821-9dc6-d68ea7c191ef",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "7ef9f22d-dbf4-4b9b-836e-7cbbbd985970",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Design.___RootToEntities",
+      "Metamodel": "___RootToEntities",
+      "SourceId": "838e986d-f7ef-4b44-83bd-8ba1de492023",
+      "TargetId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "a63ff147-6c09-4c9a-a9df-06ee9ef96bc1",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "TargetId": "e9c8bc24-cb9f-4c69-8559-6caedc9d6aee",
+      "SourceIndex": 2,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "afa8da08-33c7-4a38-b233-30bde244beb5",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "b3916a5f-9260-4535-bc4b-12e7f5de9b5a",
+      "SourceIndex": 4,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "b8635154-983d-4bcc-97dd-55b7d40b66a8",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "8c9e7297-ab7e-4446-99c7-3e5d16689ca0",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "b97b19ab-dd73-4375-9934-d0162ffcd450",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Design.___RootToEntities",
+      "Metamodel": "___RootToEntities",
+      "SourceId": "838e986d-f7ef-4b44-83bd-8ba1de492023",
+      "TargetId": "a5f7d0a6-eb36-4b87-8bdf-667d1c28fbd2",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "bae56271-6502-47b1-9f07-8318efd5bc4c",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "24ff3aaa-6d61-4fa8-88bb-541b75ec9beb",
+      "TargetId": "930fdf10-777d-4821-9dc6-d68ea7c191ef",
+      "SourceIndex": 1,
+      "TargetIndex": -1,
+      "IsDerivation": true
+    },
+    {
+      "Id": "c1531323-bd77-48f3-9a92-9cbb35c721b6",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "acc39927-355c-4c96-8f9d-a2c07edd25d6",
+      "SourceIndex": 2,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "cc4f92ec-42a2-48b4-b047-0d36a6d2a09e",
+      "RelationType": "Embed",
+      "MetamodelId": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
+      "Metamodel": "仕様の所有",
+      "SourceId": "a5f7d0a6-eb36-4b87-8bdf-667d1c28fbd2",
+      "TargetId": "e8679cd7-52c2-4be7-9817-0706410895c5",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "d6aac1a8-ef3d-47ba-8d77-c01c43e47418",
+      "RelationType": "Embed",
+      "MetamodelId": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
+      "Metamodel": "仕様の所有",
+      "SourceId": "a5f7d0a6-eb36-4b87-8bdf-667d1c28fbd2",
+      "TargetId": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
+      "SourceIndex": 1,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "f8dbfa55-e0c4-40f0-8ddb-489117f7e1b3",
+      "RelationType": "Embed",
+      "MetamodelId": "System.Core.___ModelRoot_RootModels",
+      "Metamodel": "___ModelRoot_RootModels",
+      "SourceId": "1b4a60cd-8075-46ef-b8fe-0061bfe328db",
+      "TargetId": "838e986d-f7ef-4b44-83bd-8ba1de492023",
+      "TargetIndex": -1
+    },
+    {
+      "Id": "fbcee5ca-1d3b-4411-aa4e-5d758630df8e",
+      "RelationType": "Embed",
+      "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
+      "Metamodel": "変更依頼の所有",
+      "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
+      "TargetId": "2c4c86e4-dc1f-429e-ae72-aedd4ae43425",
+      "SourceIndex": 5,
+      "TargetIndex": -1
+    }
+  ]
+}
