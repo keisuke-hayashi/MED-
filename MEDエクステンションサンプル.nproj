@@ -23,12 +23,22 @@
     {
       "Id": "09363ac7-de4a-474d-b45f-9cefdd1ea610",
       "EntityType": "Entity",
-      "Name": "変更依頼",
+      "Name": "変更依頼7",
       "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
       "Metamodel": "変更依頼",
       "Fields": {
-        "Name": "変更依頼",
+        "Name": "変更依頼7",
         "完了済": false
+      }
+    },
+    {
+      "Id": "1117a027-4994-4483-b6de-251648c23f98",
+      "EntityType": "Entity",
+      "Name": "変更履歴12",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴12"
       }
     },
     {
@@ -85,34 +95,44 @@
       }
     },
     {
+      "Id": "49bfa0d3-c2c5-4509-9257-313d5b07f2d6",
+      "EntityType": "Entity",
+      "Name": "変更履歴11",
+      "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+      "Metamodel": "変更履歴",
+      "Fields": {
+        "Name": "変更履歴11"
+      }
+    },
+    {
       "Id": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
       "EntityType": "Entity",
-      "Name": "仕様",
+      "Name": "仕様2",
       "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
       "Metamodel": "仕様",
       "Fields": {
-        "Name": "仕様"
+        "Name": "仕様2"
       }
     },
     {
       "Id": "68357054-ea0e-45ad-83bc-1c62df82def8",
       "EntityType": "Entity",
-      "Name": "変更依頼",
+      "Name": "変更依頼8",
       "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
       "Metamodel": "変更依頼",
       "Fields": {
-        "Name": "変更依頼",
+        "Name": "変更依頼8",
         "完了済": false
       }
     },
     {
       "Id": "70a6fba7-29f5-4280-a790-3ed4ccb3fed6",
       "EntityType": "Entity",
-      "Name": "変更履歴",
+      "Name": "変更履歴6",
       "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
       "Metamodel": "変更履歴",
       "Fields": {
-        "Name": "変更履歴"
+        "Name": "変更履歴6"
       }
     },
     {
@@ -128,11 +148,11 @@
     {
       "Id": "73d8a501-ad6e-441d-8fd2-0d729fca5c57",
       "EntityType": "Entity",
-      "Name": "変更依頼",
+      "Name": "変更依頼9",
       "MetamodelId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
       "Metamodel": "変更依頼",
       "Fields": {
-        "Name": "変更依頼",
+        "Name": "変更依頼9",
         "完了済": false
       }
     },
@@ -170,11 +190,11 @@
     {
       "Id": "90aebcc4-fdbd-4e96-948f-7fac758967ff",
       "EntityType": "Entity",
-      "Name": "変更履歴",
+      "Name": "変更履歴5",
       "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
       "Metamodel": "変更履歴",
       "Fields": {
-        "Name": "変更履歴"
+        "Name": "変更履歴5"
       }
     },
     {
@@ -206,7 +226,7 @@
       "Metamodel": "変更依頼",
       "Fields": {
         "Name": "変更依頼3",
-        "完了済": false
+        "完了済": true
       }
     },
     {
@@ -223,11 +243,11 @@
     {
       "Id": "e8679cd7-52c2-4be7-9817-0706410895c5",
       "EntityType": "Entity",
-      "Name": "仕様",
+      "Name": "仕様1",
       "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
       "Metamodel": "仕様",
       "Fields": {
-        "Name": "仕様"
+        "Name": "仕様1"
       }
     },
     {
@@ -270,6 +290,16 @@
       "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
       "TargetId": "73d8a501-ad6e-441d-8fd2-0d729fca5c57",
       "SourceIndex": 8,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "43d64c22-a572-4c2c-a524-832c329c1c84",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
+      "TargetId": "1117a027-4994-4483-b6de-251648c23f98",
+      "SourceIndex": 1,
       "TargetIndex": -1
     },
     {
@@ -332,6 +362,16 @@
       "IsDerivation": true
     },
     {
+      "Id": "5a3324bf-6bb1-4a7b-87ae-8e6ab93ac71f",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "2dcac465-cd65-4355-ba34-dba9bf7c6b67",
+      "TargetId": "b3916a5f-9260-4535-bc4b-12e7f5de9b5a",
+      "TargetIndex": -1,
+      "IsDerivation": true
+    },
+    {
       "Id": "5c5486e3-c62a-413e-a855-3268a4a66d23",
       "RelationType": "Embed",
       "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
@@ -340,6 +380,16 @@
       "TargetId": "930fdf10-777d-4821-9dc6-d68ea7c191ef",
       "SourceIndex": 1,
       "TargetIndex": -1
+    },
+    {
+      "Id": "78bbe414-b3fa-4fe0-a490-945e4ceefe35",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "1117a027-4994-4483-b6de-251648c23f98",
+      "TargetId": "68357054-ea0e-45ad-83bc-1c62df82def8",
+      "TargetIndex": -1,
+      "IsDerivation": true
     },
     {
       "Id": "7ef9f22d-dbf4-4b9b-836e-7cbbbd985970",
@@ -370,6 +420,16 @@
       "TargetId": "e9c8bc24-cb9f-4c69-8559-6caedc9d6aee",
       "SourceIndex": 2,
       "TargetIndex": -1
+    },
+    {
+      "Id": "ae22e072-7793-403e-bd10-f0ce01e98a8b",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "49bfa0d3-c2c5-4509-9257-313d5b07f2d6",
+      "TargetId": "73d8a501-ad6e-441d-8fd2-0d729fca5c57",
+      "TargetIndex": -1,
+      "IsDerivation": true
     },
     {
       "Id": "afa8da08-33c7-4a38-b233-30bde244beb5",
@@ -440,6 +500,15 @@
       "TargetIndex": -1
     },
     {
+      "Id": "d03aba2f-4b8d-4377-a30c-530e8f32ce4b",
+      "RelationType": "Embed",
+      "MetamodelId": "45dd9ada-e576-4ef8-9b2a-f3c4f952b751",
+      "Metamodel": "変更履歴の所有",
+      "SourceId": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
+      "TargetId": "49bfa0d3-c2c5-4509-9257-313d5b07f2d6",
+      "TargetIndex": -1
+    },
+    {
       "Id": "d6aac1a8-ef3d-47ba-8d77-c01c43e47418",
       "RelationType": "Embed",
       "MetamodelId": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
@@ -448,6 +517,16 @@
       "TargetId": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
       "SourceIndex": 1,
       "TargetIndex": -1
+    },
+    {
+      "Id": "de0174e5-d10a-4020-b66e-fefd522d77aa",
+      "RelationType": "Ref",
+      "MetamodelId": "e4535fbc-d06b-4809-9807-7cceae8ed4dd",
+      "Metamodel": "変更依頼を入力とする変更履歴の導出",
+      "SourceId": "e9c8bc24-cb9f-4c69-8559-6caedc9d6aee",
+      "TargetId": "38b32020-cc63-4948-ab0f-6de4868d56ba",
+      "TargetIndex": -1,
+      "IsDerivation": true
     },
     {
       "Id": "f8dbfa55-e0c4-40f0-8ddb-489117f7e1b3",
