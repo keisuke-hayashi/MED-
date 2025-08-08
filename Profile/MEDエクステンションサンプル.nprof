@@ -86,6 +86,208 @@
                 "Name": "System.Root",
                 "Value": "true"
               }
+            ],
+            "OwnedTypes": [
+              {
+                "TypeKind": "Enum",
+                "Name": "工程定義",
+                "Id": "5e752854-19d0-483d-8d47-5be1eede9610",
+                "DisplayName": "工程定義",
+                "Literals": [
+                  {
+                    "Name": "仕様開発",
+                    "Id": "b2551a1f-597d-4211-b790-542f30ec98f2",
+                    "Value": 0,
+                    "DisplayName": "仕様開発"
+                  },
+                  {
+                    "Name": "コンポーネント設計",
+                    "Id": "08b364c3-f567-45d4-a151-4a09115ba125",
+                    "Value": 1,
+                    "DisplayName": "コンポーネント設計"
+                  },
+                  {
+                    "Name": "詳細設計",
+                    "Id": "5773d286-38ce-4e8c-8ffa-967d567e82e0",
+                    "Value": 2,
+                    "DisplayName": "詳細設計"
+                  }
+                ]
+              },
+              {
+                "Id": "0a06b069-c53c-4ee3-82b3-cb316a4c74d2",
+                "TypeKind": "Class",
+                "Name": "関数一覧",
+                "DisplayName": "関数一覧",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "a0cd4bd7-9662-46be-a409-cae14271cd6f",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "a4c4ea36-0ce9-4e5a-9fb9-e5be52b85fe8",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "4f5b0cc7-d801-4d34-9d99-c1e1a5ee14b1",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_関数設計_関数一覧",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "a0d002a0-2368-4342-827e-f7a5de7f51c2",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.詳細設計.関数設計",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "48a1bb66-1f44-4f54-8c38-283f9aa08664",
+                    "DisplayName": "親関数設計"
+                  },
+                  {
+                    "Id": "5f43e89d-35d5-49c1-a175-9e018d0221d3",
+                    "FieldType": "Property",
+                    "Name": "関数",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "9bd418fc-5611-4533-9a0c-34b2f0a15807",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.詳細設計.関数",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "f2429f65-2491-4e58-ad59-5328c4ec33f6",
+                    "DisplayName": "関数"
+                  }
+                ]
+              },
+              {
+                "Id": "890f1094-38e7-4bef-8b32-69c06c2da70a",
+                "TypeKind": "Class",
+                "Name": "仕様一覧",
+                "DisplayName": "仕様一覧",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "297fe9b9-c650-4d02-b8d1-b577324aa2f4",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "f0624984-2b09-4914-b20b-cf2df4dd0ce4",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "f0ebea63-d78b-47f7-91c2-6ec1792b75d5",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_仕様開発_仕様一覧",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "7713eeb8-e3ae-4402-a69c-db82691ee334",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様開発",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "0b378857-4edf-470e-ad71-da22d6f89239",
+                    "DisplayName": "親仕様開発"
+                  },
+                  {
+                    "Id": "81ad607a-7493-421f-a226-da948b2ea897",
+                    "FieldType": "Property",
+                    "Name": "仕様",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "9187ef9a-8048-455e-adaf-852e9c6d7981",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
+                    "DisplayName": "仕様"
+                  }
+                ]
+              }
             ]
           },
           {
@@ -119,33 +321,6 @@
                   "ValueTypeName": "MEDエクステンションサンプル.依頼管理.変更依頼",
                   "ValueTypeKind": "Class",
                   "ValueTypeId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb"
-                }
-              },
-              {
-                "Id": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
-                "TypeKind": "EmbedRelationship",
-                "Name": "___anonymous___embedrelationship_仕様開発_仕様",
-                "IsOneway": true,
-                "DisplayName": "仕様の所有",
-                "Target": {
-                  "Id": "ae3a509b-d2e8-46f9-84ac-36ce3eb34b1b",
-                  "RoleType": "RoleParent",
-                  "Name": "___anonymous___owner_related_to_仕様開発_仕様",
-                  "LowerBound": 0,
-                  "UpperBound": -1,
-                  "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様開発",
-                  "ValueTypeKind": "Class",
-                  "ValueTypeId": "0b378857-4edf-470e-ad71-da22d6f89239"
-                },
-                "Source": {
-                  "Id": "4f815194-9994-4ab1-9f43-642f1582d123",
-                  "RoleType": "RoleChild",
-                  "Name": "仕様",
-                  "LowerBound": 0,
-                  "UpperBound": -1,
-                  "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様",
-                  "ValueTypeKind": "Class",
-                  "ValueTypeId": "49334cc2-b514-4e24-96b8-869034d5bfe7"
                 }
               },
               {
@@ -200,6 +375,195 @@
                   "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様開発",
                   "ValueTypeKind": "Class",
                   "ValueTypeId": "0b378857-4edf-470e-ad71-da22d6f89239"
+                }
+              },
+              {
+                "Id": "85ece412-1d7b-4245-8f4e-dfe48c351f1e",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_仕様_仕様",
+                "IsOneway": true,
+                "DisplayName": "仕様の所有",
+                "Target": {
+                  "Id": "3e2a9745-783d-4cef-a686-5b277bcf75ff",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_仕様_仕様",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "49334cc2-b514-4e24-96b8-869034d5bfe7"
+                },
+                "Source": {
+                  "Id": "ce014698-82d8-4133-8df0-b41761778922",
+                  "RoleType": "RoleChild",
+                  "Name": "仕様",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "49334cc2-b514-4e24-96b8-869034d5bfe7"
+                }
+              },
+              {
+                "Id": "4e70656c-582c-4919-b858-f4c2e3891442",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_コンポーネント設計_コンポーネント",
+                "IsOneway": true,
+                "DisplayName": "コンポーネントの所有",
+                "Target": {
+                  "Id": "3ed68511-34f6-460f-bf47-42dff443e60d",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_コンポーネント設計_コンポーネント",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.コンポーネント設計.コンポーネント設計",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "747cf3d7-4268-42c1-b496-0de54feb0ad5"
+                },
+                "Source": {
+                  "Id": "c623a84a-6f88-43ca-8c6a-1b7d702c00ed",
+                  "RoleType": "RoleChild",
+                  "Name": "コンポーネント",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.コンポーネント設計.コンポーネント",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "670bdb86-5a70-4c5d-b7f3-ea0c0092d2a1"
+                }
+              },
+              {
+                "Id": "6040b0d4-e337-4633-be15-3b08e78f120d",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_関数_引数",
+                "IsOneway": true,
+                "DisplayName": "引数の所有",
+                "Target": {
+                  "Id": "d5916e80-4837-4f01-9493-3bed233a1bd0",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_関数_引数",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.詳細設計.関数",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "f2429f65-2491-4e58-ad59-5328c4ec33f6"
+                },
+                "Source": {
+                  "Id": "e6d62c18-1734-4c61-ae57-b54019d37714",
+                  "RoleType": "RoleChild",
+                  "Name": "引数",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.詳細設計.引数",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "a2cc3c6e-8755-4bc5-90cb-fbb53a3b515a"
+                }
+              },
+              {
+                "Id": "a0d002a0-2368-4342-827e-f7a5de7f51c2",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_関数設計_関数一覧",
+                "IsOneway": true,
+                "DisplayName": "関数一覧の所有",
+                "Target": {
+                  "Id": "4f5b0cc7-d801-4d34-9d99-c1e1a5ee14b1",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_関数設計_関数一覧",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.詳細設計.関数設計",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "48a1bb66-1f44-4f54-8c38-283f9aa08664"
+                },
+                "Source": {
+                  "Id": "9531bcd2-3cd6-452f-aa71-f21e580e89e5",
+                  "RoleType": "RoleChild",
+                  "Name": "関数一覧",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.関数一覧",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "0a06b069-c53c-4ee3-82b3-cb316a4c74d2"
+                }
+              },
+              {
+                "Id": "9bd418fc-5611-4533-9a0c-34b2f0a15807",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_関数一覧_関数",
+                "IsOneway": true,
+                "DisplayName": "関数の所有",
+                "Target": {
+                  "Id": "20e5529b-3629-4af8-a1c5-c0b7e2744647",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_関数一覧_関数",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.関数一覧",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "0a06b069-c53c-4ee3-82b3-cb316a4c74d2"
+                },
+                "Source": {
+                  "Id": "5f43e89d-35d5-49c1-a175-9e018d0221d3",
+                  "RoleType": "RoleChild",
+                  "Name": "関数",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.詳細設計.関数",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "f2429f65-2491-4e58-ad59-5328c4ec33f6"
+                }
+              },
+              {
+                "Id": "7713eeb8-e3ae-4402-a69c-db82691ee334",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_仕様開発_仕様一覧",
+                "IsOneway": true,
+                "DisplayName": "仕様一覧の所有",
+                "Target": {
+                  "Id": "f0ebea63-d78b-47f7-91c2-6ec1792b75d5",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_仕様開発_仕様一覧",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様開発",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "0b378857-4edf-470e-ad71-da22d6f89239"
+                },
+                "Source": {
+                  "Id": "62a50c4d-0556-4432-9457-7fd138ab56dd",
+                  "RoleType": "RoleChild",
+                  "Name": "仕様一覧",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.仕様一覧",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "890f1094-38e7-4bef-8b32-69c06c2da70a"
+                }
+              },
+              {
+                "Id": "9187ef9a-8048-455e-adaf-852e9c6d7981",
+                "TypeKind": "EmbedRelationship",
+                "Name": "___anonymous___embedrelationship_仕様一覧_仕様",
+                "IsOneway": true,
+                "DisplayName": "仕様の所有",
+                "Target": {
+                  "Id": "84b998bd-0dc1-497e-b5d1-7747f70ec2e3",
+                  "RoleType": "RoleParent",
+                  "Name": "___anonymous___owner_related_to_仕様一覧_仕様",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.仕様一覧",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "890f1094-38e7-4bef-8b32-69c06c2da70a"
+                },
+                "Source": {
+                  "Id": "81ad607a-7493-421f-a226-da948b2ea897",
+                  "RoleType": "RoleChild",
+                  "Name": "仕様",
+                  "LowerBound": 0,
+                  "UpperBound": -1,
+                  "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様",
+                  "ValueTypeKind": "Class",
+                  "ValueTypeId": "49334cc2-b514-4e24-96b8-869034d5bfe7"
                 }
               }
             ]
@@ -446,6 +810,18 @@
                     "ValueTypeKind": "Class",
                     "ValueTypeId": "81a6ba0d-96aa-470b-a4e9-33ccfcb348eb",
                     "DisplayName": "関連する変更依頼"
+                  },
+                  {
+                    "Id": "4ab3ff5d-3a5e-41bc-a671-9f238dff5c46",
+                    "FieldType": "Property",
+                    "Name": "工程定義",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "MEDエクステンションサンプル.工程定義",
+                    "ValueTypeKind": "Enum",
+                    "ValueTypeId": "5e752854-19d0-483d-8d47-5be1eede9610",
+                    "DisplayName": "工程定義"
                   }
                 ]
               }
@@ -521,19 +897,6 @@
                     ]
                   },
                   {
-                    "Id": "4f815194-9994-4ab1-9f43-642f1582d123",
-                    "FieldType": "Property",
-                    "Name": "仕様",
-                    "Unique": true,
-                    "LowerBound": 0,
-                    "UpperBound": -1,
-                    "RelationshipClassId": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
-                    "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様",
-                    "ValueTypeKind": "Class",
-                    "ValueTypeId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
-                    "DisplayName": "仕様"
-                  },
-                  {
                     "Id": "f9bab472-16a2-48dc-b513-830d9b4825a7",
                     "FieldType": "Reference",
                     "Name": "___anonymous___owner_related_to_開発成果_仕様開発",
@@ -545,6 +908,19 @@
                     "ValueTypeKind": "Class",
                     "ValueTypeId": "2cfa2315-4d9c-468d-a90f-b635c0770a0b",
                     "DisplayName": "親開発成果"
+                  },
+                  {
+                    "Id": "62a50c4d-0556-4432-9457-7fd138ab56dd",
+                    "FieldType": "Property",
+                    "Name": "仕様一覧",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "7713eeb8-e3ae-4402-a69c-db82691ee334",
+                    "ValueTypeName": "MEDエクステンションサンプル.仕様一覧",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "890f1094-38e7-4bef-8b32-69c06c2da70a",
+                    "DisplayName": "仕様一覧"
                   }
                 ]
               },
@@ -612,17 +988,43 @@
                     ]
                   },
                   {
-                    "Id": "ae3a509b-d2e8-46f9-84ac-36ce3eb34b1b",
-                    "FieldType": "Reference",
-                    "Name": "___anonymous___owner_related_to_仕様開発_仕様",
+                    "Id": "ce014698-82d8-4133-8df0-b41761778922",
+                    "FieldType": "Property",
+                    "Name": "仕様",
                     "Unique": true,
                     "LowerBound": 0,
                     "UpperBound": -1,
-                    "RelationshipClassId": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
-                    "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様開発",
+                    "RelationshipClassId": "85ece412-1d7b-4245-8f4e-dfe48c351f1e",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様",
                     "ValueTypeKind": "Class",
-                    "ValueTypeId": "0b378857-4edf-470e-ad71-da22d6f89239",
-                    "DisplayName": "親仕様開発"
+                    "ValueTypeId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
+                    "DisplayName": "仕様"
+                  },
+                  {
+                    "Id": "3e2a9745-783d-4cef-a686-5b277bcf75ff",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_仕様_仕様",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "85ece412-1d7b-4245-8f4e-dfe48c351f1e",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.仕様.仕様",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
+                    "DisplayName": "親仕様"
+                  },
+                  {
+                    "Id": "84b998bd-0dc1-497e-b5d1-7747f70ec2e3",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_仕様一覧_仕様",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "9187ef9a-8048-455e-adaf-852e9c6d7981",
+                    "ValueTypeName": "MEDエクステンションサンプル.仕様一覧",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "890f1094-38e7-4bef-8b32-69c06c2da70a",
+                    "DisplayName": "親仕様一覧"
                   }
                 ]
               }
@@ -700,6 +1102,93 @@
                         "Value": "true"
                       }
                     ]
+                  },
+                  {
+                    "Id": "c623a84a-6f88-43ca-8c6a-1b7d702c00ed",
+                    "FieldType": "Property",
+                    "Name": "コンポーネント",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "4e70656c-582c-4919-b858-f4c2e3891442",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.コンポーネント設計.コンポーネント",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "670bdb86-5a70-4c5d-b7f3-ea0c0092d2a1",
+                    "DisplayName": "コンポーネント"
+                  }
+                ]
+              },
+              {
+                "Id": "670bdb86-5a70-4c5d-b7f3-ea0c0092d2a1",
+                "TypeKind": "Class",
+                "Name": "コンポーネント",
+                "DisplayName": "コンポーネント",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "7832c1a7-ab89-43cd-912e-93be1641ac09",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "f7dc36c4-a91d-4373-a1a4-3bb6bad882bb",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "3ed68511-34f6-460f-bf47-42dff443e60d",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_コンポーネント設計_コンポーネント",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "4e70656c-582c-4919-b858-f4c2e3891442",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.コンポーネント設計.コンポーネント設計",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "747cf3d7-4268-42c1-b496-0de54feb0ad5",
+                    "DisplayName": "親コンポーネント設計"
                   }
                 ]
               }
@@ -777,6 +1266,191 @@
                         "Value": "true"
                       }
                     ]
+                  },
+                  {
+                    "Id": "9531bcd2-3cd6-452f-aa71-f21e580e89e5",
+                    "FieldType": "Property",
+                    "Name": "関数一覧",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "a0d002a0-2368-4342-827e-f7a5de7f51c2",
+                    "ValueTypeName": "MEDエクステンションサンプル.関数一覧",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "0a06b069-c53c-4ee3-82b3-cb316a4c74d2",
+                    "DisplayName": "関数一覧"
+                  }
+                ]
+              },
+              {
+                "Id": "f2429f65-2491-4e58-ad59-5328c4ec33f6",
+                "TypeKind": "Class",
+                "Name": "関数",
+                "DisplayName": "関数",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "ba3ad4a2-8e90-48ca-9eb5-cdfa960f73c1",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "90501969-de1e-44ba-980d-72f7ae6f404f",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "e6d62c18-1734-4c61-ae57-b54019d37714",
+                    "FieldType": "Property",
+                    "Name": "引数",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "6040b0d4-e337-4633-be15-3b08e78f120d",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.詳細設計.引数",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "a2cc3c6e-8755-4bc5-90cb-fbb53a3b515a",
+                    "DisplayName": "引数"
+                  },
+                  {
+                    "Id": "d4010c8d-e8bd-48ee-b615-cb8dbac7e3b3",
+                    "FieldType": "Property",
+                    "Name": "戻り値",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "戻り値"
+                  },
+                  {
+                    "Id": "20e5529b-3629-4af8-a1c5-c0b7e2744647",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_関数一覧_関数",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "9bd418fc-5611-4533-9a0c-34b2f0a15807",
+                    "ValueTypeName": "MEDエクステンションサンプル.関数一覧",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "0a06b069-c53c-4ee3-82b3-cb316a4c74d2",
+                    "DisplayName": "親関数一覧"
+                  }
+                ]
+              },
+              {
+                "Id": "a2cc3c6e-8755-4bc5-90cb-fbb53a3b515a",
+                "TypeKind": "Class",
+                "Name": "引数",
+                "DisplayName": "引数",
+                "Tags": [
+                  {
+                    "Name": "System.ShowInModelNavigator",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.ShowInTracePage",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.IsUnitizable",
+                    "Value": "True"
+                  },
+                  {
+                    "Name": "System.Type",
+                    "Value": "Entity"
+                  }
+                ],
+                "Fields": [
+                  {
+                    "Id": "e27abd1b-a8b0-4843-a616-818d49002914",
+                    "FieldType": "Property",
+                    "Name": "Name",
+                    "Override": true,
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "名前",
+                    "Tags": [
+                      {
+                        "Name": "System.Name",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "5f0b2dc0-7647-4195-945b-fdbf9d0c718b",
+                    "FieldType": "Property",
+                    "Name": "Description",
+                    "Unique": true,
+                    "LowerBound": 1,
+                    "UpperBound": 1,
+                    "ValueTypeName": "String",
+                    "ValueTypeKind": "Primitive",
+                    "DisplayName": "説明",
+                    "Tags": [
+                      {
+                        "Name": "System.Description",
+                        "Value": "true"
+                      }
+                    ]
+                  },
+                  {
+                    "Id": "d5916e80-4837-4f01-9493-3bed233a1bd0",
+                    "FieldType": "Reference",
+                    "Name": "___anonymous___owner_related_to_関数_引数",
+                    "Unique": true,
+                    "LowerBound": 0,
+                    "UpperBound": -1,
+                    "RelationshipClassId": "6040b0d4-e337-4633-be15-3b08e78f120d",
+                    "ValueTypeName": "MEDエクステンションサンプル.成果物.詳細設計.関数",
+                    "ValueTypeKind": "Class",
+                    "ValueTypeId": "f2429f65-2491-4e58-ad59-5328c4ec33f6",
+                    "DisplayName": "親関数"
                   }
                 ]
               }
@@ -1459,6 +2133,20 @@
                 "ShowTitle": true,
                 "ShowTitleIcon": false,
                 "ShowGridLine": false
+              },
+              {
+                "ControlType": "ComboBox",
+                "Id": "6cabe2db-589c-433f-a513-37f49139f716",
+                "DisplayName": "工程定義",
+                "Name": "工程定義",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "工程定義",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
               }
             ]
           },
@@ -1669,6 +2357,260 @@
             "ViewElementType": "TreeGridLayout",
             "TitleWidth": 250
           }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "7fd70521-fdbd-46b7-a921-c7fe9dbb4522",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "670bdb86-5a70-4c5d-b7f3-ea0c0092d2a1",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "f8c1a6ef-035b-4743-8642-fabd227fce13",
+            "Name": "エンティティ_1",
+            "MetamodelId": "670bdb86-5a70-4c5d-b7f3-ea0c0092d2a1",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "bcb6b1e0-172a-46b3-9681-dc65f60d2e02",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "1ef62f13-cca4-4828-89e1-4b695096d7c9",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "f2429f65-2491-4e58-ad59-5328c4ec33f6",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "24c4661e-c039-46b8-9798-80e9f6c8c3f8",
+            "Name": "エンティティ_1",
+            "MetamodelId": "f2429f65-2491-4e58-ad59-5328c4ec33f6",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "87b7487e-90a4-414e-82a7-999441d578ae",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              },
+              {
+                "ControlType": "Text",
+                "Id": "4d1566eb-a55d-4df8-82c4-7e7256bd0bc7",
+                "DisplayName": "戻り値",
+                "Name": "戻り値",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "戻り値",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "58928a6c-5fcf-403f-aaa7-c0f884f08376",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "a2cc3c6e-8755-4bc5-90cb-fbb53a3b515a",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "2431aa91-fe4f-48ad-990e-12abbb468969",
+            "Name": "エンティティ_1",
+            "MetamodelId": "a2cc3c6e-8755-4bc5-90cb-fbb53a3b515a",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "dccd649f-61c2-409f-a013-ec5f03e39623",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "04bbfa5d-ca4b-42b7-9274-10c41988bcea",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "0a06b069-c53c-4ee3-82b3-cb316a4c74d2",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "b836fff7-92cc-4031-a94d-7cf26c7a65fe",
+            "Name": "エンティティ_1",
+            "MetamodelId": "0a06b069-c53c-4ee3-82b3-cb316a4c74d2",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "f4c80e97-bc71-44b6-93e9-2d4225cc3d9e",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
+        },
+        {
+          "ViewType": "Form",
+          "Id": "f04bc312-ee3b-44f5-b363-d1c9b2bd9912",
+          "DisplayName": "詳細",
+          "Name": "Detail",
+          "MetamodelId": "890f1094-38e7-4bef-8b32-69c06c2da70a",
+          "ShowIcon": false,
+          "IsReadOnly": false,
+          "DisplayTarget": "Both",
+          "ShowTitle": false,
+          "OutlineNumberLevel": 0,
+          "AutoGenerated": false,
+          "FixColumnIndex": 0,
+          "RootControl": {
+            "ControlType": "EntityControl",
+            "Id": "7552b479-fe84-4d26-ae29-2ca5da3fcc41",
+            "Name": "エンティティ_1",
+            "MetamodelId": "890f1094-38e7-4bef-8b32-69c06c2da70a",
+            "ShowIcon": false,
+            "IsReadOnly": false,
+            "IsReference": false,
+            "HasPathMultipleSteps": false,
+            "ShowTitle": true,
+            "ShowTitleIcon": false,
+            "ShowGridLine": false,
+            "TitleBindingPath": "Name",
+            "Controls": [
+              {
+                "ControlType": "Text",
+                "Id": "91b4105e-0a49-458a-816f-33a44da84a48",
+                "DisplayName": "説明",
+                "Name": "Description",
+                "ShowIcon": false,
+                "IsReadOnly": false,
+                "Path": "Description",
+                "IsReference": false,
+                "HasPathMultipleSteps": false,
+                "ShowTitle": true,
+                "ShowTitleIcon": false,
+                "ShowGridLine": false
+              }
+            ]
+          },
+          "Layout": {
+            "ViewElementType": "DocumentLayout",
+            "TitleWidth": 250
+          }
         }
       ]
     }
@@ -1684,7 +2626,7 @@
         {
           "Id": "fbcabc85-e71b-4285-ac54-0cae7cec9621",
           "LocationX": 211,
-          "LocationY": 172,
+          "LocationY": 295,
           "ZOrder": 0,
           "Width": 120,
           "Height": 80,
@@ -1696,8 +2638,8 @@
         },
         {
           "Id": "16fcaf14-7952-4191-99a4-0177609d5ccf",
-          "LocationX": 400,
-          "LocationY": 172,
+          "LocationX": 401,
+          "LocationY": 47,
           "ZOrder": 1,
           "Width": 120,
           "Height": 80,
@@ -1709,8 +2651,8 @@
         },
         {
           "Id": "dd0f4d8b-cd5b-4a4a-8ecb-f8fa3052d172",
-          "LocationX": 582,
-          "LocationY": 172,
+          "LocationX": 583,
+          "LocationY": 47,
           "ZOrder": 2,
           "Width": 120,
           "Height": 80,
@@ -1721,14 +2663,79 @@
           "BorderColor": "#000000"
         },
         {
-          "Id": "d76a15fe-422f-4f4c-b4e5-835b79693fad",
-          "LocationX": 400,
-          "LocationY": 3,
+          "Id": "2f4654f0-4ff1-4407-a792-f44b60fae1cb",
+          "LocationX": 211,
+          "LocationY": 47,
+          "ZOrder": 3,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "0b378857-4edf-470e-ad71-da22d6f89239",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#498ABC",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "03dcedb6-e37d-44f8-babc-824e78bc97be",
+          "LocationX": 401,
+          "LocationY": 172,
           "ZOrder": 4,
           "Width": 120,
           "Height": 80,
           "NodeType": "Entity",
-          "MetamodelId": "47543ffe-f8c1-42be-9cf8-aad38f13f7d0",
+          "MetamodelId": "670bdb86-5a70-4c5d-b7f3-ea0c0092d2a1",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#498ABC",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "1ccbe150-be59-4b44-9463-90a1b939a1f0",
+          "LocationX": 583,
+          "LocationY": 310,
+          "ZOrder": 5,
+          "Width": 120,
+          "Height": 101,
+          "NodeType": "Entity",
+          "MetamodelId": "f2429f65-2491-4e58-ad59-5328c4ec33f6",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#498ABC",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "dec34351-98c1-433a-97cc-209b2ba7d851",
+          "LocationX": 583,
+          "LocationY": 453,
+          "ZOrder": 6,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "a2cc3c6e-8755-4bc5-90cb-fbb53a3b515a",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#498ABC",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "c374bc8b-81d7-4fec-ba47-a131533ad5ad",
+          "LocationX": 583,
+          "LocationY": 168,
+          "ZOrder": 7,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "0a06b069-c53c-4ee3-82b3-cb316a4c74d2",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#498ABC",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "257d8de1-3df5-4490-8c3f-551a7d9dadd1",
+          "LocationX": 211,
+          "LocationY": 172,
+          "ZOrder": 9,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "890f1094-38e7-4bef-8b32-69c06c2da70a",
           "ForeColor": "#FFFFFF",
           "BackColor": "#498ABC",
           "BorderColor": "#000000"
@@ -1736,33 +2743,63 @@
       ],
       "Connectors": [
         {
-          "Id": "a723afb1-7caa-48c8-a2c7-05664234cf2a",
-          "SourceId": "fbcabc85-e71b-4285-ac54-0cae7cec9621",
-          "TargetId": "d76a15fe-422f-4f4c-b4e5-835b79693fad",
-          "LineType": "Straight",
-          "ConnectorType": "Generalization",
-          "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
-          "BackColor": "#FFFFFF",
-          "BorderColor": "#000000"
-        },
-        {
-          "Id": "fa2b5a61-40ae-4dce-94dc-0479174388c2",
+          "Id": "4ed6cc4b-e599-48eb-84b6-3ba4df5336a8",
           "SourceId": "16fcaf14-7952-4191-99a4-0177609d5ccf",
-          "TargetId": "d76a15fe-422f-4f4c-b4e5-835b79693fad",
+          "TargetId": "03dcedb6-e37d-44f8-babc-824e78bc97be",
           "LineType": "Straight",
-          "ConnectorType": "Generalization",
-          "MetamodelId": "747cf3d7-4268-42c1-b496-0de54feb0ad5",
-          "BackColor": "#FFFFFF",
+          "ConnectorType": "Embed",
+          "MetamodelId": "4e70656c-582c-4919-b858-f4c2e3891442",
+          "BackColor": "#000000",
           "BorderColor": "#000000"
         },
         {
-          "Id": "c1a2e8c1-3914-43ae-90f2-4acb8177450c",
-          "SourceId": "dd0f4d8b-cd5b-4a4a-8ecb-f8fa3052d172",
-          "TargetId": "d76a15fe-422f-4f4c-b4e5-835b79693fad",
+          "Id": "e0692e86-5c7e-4331-b2ee-b4df655a7b1f",
+          "SourceId": "1ccbe150-be59-4b44-9463-90a1b939a1f0",
+          "TargetId": "dec34351-98c1-433a-97cc-209b2ba7d851",
           "LineType": "Straight",
-          "ConnectorType": "Generalization",
-          "MetamodelId": "48a1bb66-1f44-4f54-8c38-283f9aa08664",
-          "BackColor": "#FFFFFF",
+          "ConnectorType": "Embed",
+          "MetamodelId": "6040b0d4-e337-4633-be15-3b08e78f120d",
+          "BackColor": "#000000",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "b17e7eee-5cdd-49d6-8a93-9591b9058c5c",
+          "SourceId": "dd0f4d8b-cd5b-4a4a-8ecb-f8fa3052d172",
+          "TargetId": "c374bc8b-81d7-4fec-ba47-a131533ad5ad",
+          "LineType": "Straight",
+          "ConnectorType": "Embed",
+          "MetamodelId": "a0d002a0-2368-4342-827e-f7a5de7f51c2",
+          "BackColor": "#000000",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "70b991ba-a3ea-4b23-9f47-144df8e929ec",
+          "SourceId": "c374bc8b-81d7-4fec-ba47-a131533ad5ad",
+          "TargetId": "1ccbe150-be59-4b44-9463-90a1b939a1f0",
+          "LineType": "Straight",
+          "ConnectorType": "Embed",
+          "MetamodelId": "9bd418fc-5611-4533-9a0c-34b2f0a15807",
+          "BackColor": "#000000",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "2e37bebe-9865-4387-aee1-b00e39a50126",
+          "SourceId": "2f4654f0-4ff1-4407-a792-f44b60fae1cb",
+          "TargetId": "257d8de1-3df5-4490-8c3f-551a7d9dadd1",
+          "LineType": "Straight",
+          "ConnectorType": "Embed",
+          "MetamodelId": "7713eeb8-e3ae-4402-a69c-db82691ee334",
+          "BackColor": "#000000",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "4be08eb2-5c92-4ded-a060-36ee629a1c4b",
+          "SourceId": "257d8de1-3df5-4490-8c3f-551a7d9dadd1",
+          "TargetId": "fbcabc85-e71b-4285-ac54-0cae7cec9621",
+          "LineType": "Straight",
+          "ConnectorType": "Embed",
+          "MetamodelId": "9187ef9a-8048-455e-adaf-852e9c6d7981",
+          "BackColor": "#000000",
           "BorderColor": "#000000"
         }
       ]
@@ -1801,51 +2838,12 @@
           "BorderColor": "#000000"
         },
         {
-          "Id": "4898db0e-19b2-4cce-b5b1-eadf483bfecb",
-          "LocationX": 712,
-          "LocationY": 87,
-          "ZOrder": 2,
-          "Width": 120,
-          "Height": 80,
-          "NodeType": "Entity",
-          "MetamodelId": "2cfa2315-4d9c-468d-a90f-b635c0770a0b",
-          "ForeColor": "#FFFFFF",
-          "BackColor": "#498ABC",
-          "BorderColor": "#000000"
-        },
-        {
-          "Id": "ab9a2eb2-38b3-4317-9d1a-1286c52d01ce",
-          "LocationX": 712,
-          "LocationY": 217,
-          "ZOrder": 3,
-          "Width": 120,
-          "Height": 80,
-          "NodeType": "Entity",
-          "MetamodelId": "0b378857-4edf-470e-ad71-da22d6f89239",
-          "ForeColor": "#FFFFFF",
-          "BackColor": "#498ABC",
-          "BorderColor": "#000000"
-        },
-        {
-          "Id": "4f047220-0ae7-47af-988d-f0e3db3788ab",
-          "LocationX": 712,
-          "LocationY": 347,
-          "ZOrder": 4,
-          "Width": 120,
-          "Height": 80,
-          "NodeType": "Entity",
-          "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
-          "ForeColor": "#FFFFFF",
-          "BackColor": "#498ABC",
-          "BorderColor": "#000000"
-        },
-        {
           "Id": "9fcebbc1-6820-4cb6-9aa6-fb6c033007d3",
           "LocationX": 518,
-          "LocationY": 87,
-          "ZOrder": 5,
+          "LocationY": 72,
+          "ZOrder": 2,
           "Width": 120,
-          "Height": 80,
+          "Height": 95,
           "NodeType": "Entity",
           "MetamodelId": "47543ffe-f8c1-42be-9cf8-aad38f13f7d0",
           "ForeColor": "#FFFFFF",
@@ -1856,11 +2854,63 @@
           "Id": "56d6bd52-63e4-48bb-96c7-4a94267a5119",
           "LocationX": 518,
           "LocationY": 217,
-          "ZOrder": 6,
+          "ZOrder": 3,
           "Width": 120,
-          "Height": 100,
+          "Height": 128,
           "NodeType": "Entity",
           "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#498ABC",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "7362c14e-d28c-4dc0-aee1-dbaeed0524d9",
+          "LocationX": 518,
+          "LocationY": 377,
+          "ZOrder": 4,
+          "Width": 125,
+          "Height": 119,
+          "NodeType": "Enum",
+          "MetamodelId": "5e752854-19d0-483d-8d47-5be1eede9610",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#F69544",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "69f83ce0-ca64-41c0-93e3-57d8dae67bdc",
+          "LocationX": 723,
+          "LocationY": 21,
+          "ZOrder": 5,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#498ABC",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "ab94413e-bd99-473f-b44f-f93a232e4315",
+          "LocationX": 723,
+          "LocationY": 141,
+          "ZOrder": 6,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "747cf3d7-4268-42c1-b496-0de54feb0ad5",
+          "ForeColor": "#FFFFFF",
+          "BackColor": "#498ABC",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "65f5ffbe-dfe4-42a6-bce1-70fda18f8df9",
+          "LocationX": 723,
+          "LocationY": 261,
+          "ZOrder": 8,
+          "Width": 120,
+          "Height": 80,
+          "NodeType": "Entity",
+          "MetamodelId": "48a1bb66-1f44-4f54-8c38-283f9aa08664",
           "ForeColor": "#FFFFFF",
           "BackColor": "#498ABC",
           "BorderColor": "#000000"
@@ -1874,16 +2924,6 @@
           "LineType": "Straight",
           "ConnectorType": "Embed",
           "MetamodelId": "007511de-e119-46a7-bb94-544a14d29cb2",
-          "BackColor": "#000000",
-          "BorderColor": "#000000"
-        },
-        {
-          "Id": "4a0cbb0e-3d62-4b3c-855e-777e03877ff6",
-          "SourceId": "ab9a2eb2-38b3-4317-9d1a-1286c52d01ce",
-          "TargetId": "4f047220-0ae7-47af-988d-f0e3db3788ab",
-          "LineType": "Straight",
-          "ConnectorType": "Embed",
-          "MetamodelId": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
           "BackColor": "#000000",
           "BorderColor": "#000000"
         },
@@ -1907,13 +2947,57 @@
           "BorderColor": "#000000"
         },
         {
-          "Id": "59462fcf-58f0-48c9-a420-4d91dc5f3215",
-          "SourceId": "4898db0e-19b2-4cce-b5b1-eadf483bfecb",
-          "TargetId": "ab9a2eb2-38b3-4317-9d1a-1286c52d01ce",
-          "LineType": "Straight",
+          "Id": "a84a3aa3-2fd2-4993-8876-4579b2126b4b",
+          "SourceId": "69f83ce0-ca64-41c0-93e3-57d8dae67bdc",
+          "TargetId": "69f83ce0-ca64-41c0-93e3-57d8dae67bdc",
+          "Bends": [
+            {
+              "LocationX": 703,
+              "LocationY": 61
+            },
+            {
+              "LocationX": 703,
+              "LocationY": 1
+            },
+            {
+              "LocationX": 783,
+              "LocationY": 1
+            }
+          ],
+          "LineType": "Orthogonal",
           "ConnectorType": "Embed",
-          "MetamodelId": "4b71378b-06e5-48d8-865d-c237d4ad63eb",
+          "MetamodelId": "85ece412-1d7b-4245-8f4e-dfe48c351f1e",
           "BackColor": "#000000",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "c09195de-fcc3-434e-9b29-2c97172eb4e0",
+          "SourceId": "69f83ce0-ca64-41c0-93e3-57d8dae67bdc",
+          "TargetId": "9fcebbc1-6820-4cb6-9aa6-fb6c033007d3",
+          "LineType": "Straight",
+          "ConnectorType": "Generalization",
+          "MetamodelId": "49334cc2-b514-4e24-96b8-869034d5bfe7",
+          "BackColor": "#FFFFFF",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "4789a1cc-b1c4-40b4-953c-7c2b6996442f",
+          "SourceId": "ab94413e-bd99-473f-b44f-f93a232e4315",
+          "TargetId": "9fcebbc1-6820-4cb6-9aa6-fb6c033007d3",
+          "LineType": "Straight",
+          "ConnectorType": "Generalization",
+          "MetamodelId": "747cf3d7-4268-42c1-b496-0de54feb0ad5",
+          "BackColor": "#FFFFFF",
+          "BorderColor": "#000000"
+        },
+        {
+          "Id": "973a2dcd-8841-47a9-9926-9c70e2a69d2a",
+          "SourceId": "65f5ffbe-dfe4-42a6-bce1-70fda18f8df9",
+          "TargetId": "9fcebbc1-6820-4cb6-9aa6-fb6c033007d3",
+          "LineType": "Straight",
+          "ConnectorType": "Generalization",
+          "MetamodelId": "48a1bb66-1f44-4f54-8c38-283f9aa08664",
+          "BackColor": "#FFFFFF",
           "BorderColor": "#000000"
         }
       ]

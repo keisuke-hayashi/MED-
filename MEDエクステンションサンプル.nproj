@@ -59,7 +59,8 @@
       "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
       "Metamodel": "変更履歴",
       "Fields": {
-        "Name": "変更履歴1"
+        "Name": "変更履歴1",
+        "工程定義": "仕様開発"
       }
     },
     {
@@ -80,7 +81,8 @@
       "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
       "Metamodel": "変更履歴",
       "Fields": {
-        "Name": "変更履歴4"
+        "Name": "変更履歴4",
+        "工程定義": "仕様開発"
       }
     },
     {
@@ -163,7 +165,8 @@
       "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
       "Metamodel": "変更履歴",
       "Fields": {
-        "Name": "変更履歴2"
+        "Name": "変更履歴2",
+        "工程定義": "仕様開発"
       }
     },
     {
@@ -241,6 +244,16 @@
       }
     },
     {
+      "Id": "dff2efa9-f87b-4f66-8e32-e3c91ed11894",
+      "EntityType": "Entity",
+      "Name": "仕様一覧",
+      "MetamodelId": "890f1094-38e7-4bef-8b32-69c06c2da70a",
+      "Metamodel": "仕様一覧",
+      "Fields": {
+        "Name": "仕様一覧"
+      }
+    },
+    {
       "Id": "e8679cd7-52c2-4be7-9817-0706410895c5",
       "EntityType": "Entity",
       "Name": "仕様1",
@@ -257,7 +270,8 @@
       "MetamodelId": "2e956695-ca5f-4437-be4b-602aa7fa531a",
       "Metamodel": "変更履歴",
       "Fields": {
-        "Name": "変更履歴3"
+        "Name": "変更履歴3",
+        "工程定義": "仕様開発"
       }
     }
   ],
@@ -290,6 +304,15 @@
       "SourceId": "71602936-eb17-4276-ba8d-833086a20b9f",
       "TargetId": "73d8a501-ad6e-441d-8fd2-0d729fca5c57",
       "SourceIndex": 8,
+      "TargetIndex": -1
+    },
+    {
+      "Id": "306a803e-4dcf-45dc-81bf-73157b27ec06",
+      "RelationType": "Embed",
+      "MetamodelId": "7713eeb8-e3ae-4402-a69c-db82691ee334",
+      "Metamodel": "仕様一覧の所有",
+      "SourceId": "a5f7d0a6-eb36-4b87-8bdf-667d1c28fbd2",
+      "TargetId": "dff2efa9-f87b-4f66-8e32-e3c91ed11894",
       "TargetIndex": -1
     },
     {
@@ -493,9 +516,9 @@
     {
       "Id": "cc4f92ec-42a2-48b4-b047-0d36a6d2a09e",
       "RelationType": "Embed",
-      "MetamodelId": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
+      "MetamodelId": "9187ef9a-8048-455e-adaf-852e9c6d7981",
       "Metamodel": "仕様の所有",
-      "SourceId": "a5f7d0a6-eb36-4b87-8bdf-667d1c28fbd2",
+      "SourceId": "dff2efa9-f87b-4f66-8e32-e3c91ed11894",
       "TargetId": "e8679cd7-52c2-4be7-9817-0706410895c5",
       "TargetIndex": -1
     },
@@ -511,9 +534,9 @@
     {
       "Id": "d6aac1a8-ef3d-47ba-8d77-c01c43e47418",
       "RelationType": "Embed",
-      "MetamodelId": "a884325a-80e7-4c08-96f5-3c0bd1bcd9ca",
+      "MetamodelId": "9187ef9a-8048-455e-adaf-852e9c6d7981",
       "Metamodel": "仕様の所有",
-      "SourceId": "a5f7d0a6-eb36-4b87-8bdf-667d1c28fbd2",
+      "SourceId": "dff2efa9-f87b-4f66-8e32-e3c91ed11894",
       "TargetId": "5f8de1db-2d1b-4801-95a7-2194b0bdcdff",
       "SourceIndex": 1,
       "TargetIndex": -1
